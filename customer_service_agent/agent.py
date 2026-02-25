@@ -11,13 +11,13 @@ import copy
 DEFAULT_MOCK_DATA = {
     "CUST001": {
         "orders": [
-            {"order_id": "ORD-101", "date": "2023-10-15", "items": ["Wireless Headphones"], "total": 120.00, "status": "delivered"},
-            {"order_id": "ORD-102", "date": "2023-11-01", "items": ["USB-C Cable", "Phone Case"], "total": 35.00, "status": "shipped"}
+            {"order_id": "ORD-101", "date": "2026-01-23", "items": ["Wireless Headphones"], "total": 120000, "status": "배송완료"},
+            {"order_id": "ORD-102", "date": "2026-02-01", "items": ["USB-C Cable", "Phone Case"], "total": 35000, "status": "배송중"}
         ]
     },
     "CUST002": {
         "orders": [
-            {"order_id": "ORD-201", "date": "2023-09-20", "items": ["Smart Watch"], "total": 250.00, "status": "delivered"}
+            {"order_id": "ORD-201", "date": "2026-02-20", "items": ["Smart Watch"], "total": 450000, "status": "배송완료"}
         ]
     }
 }
