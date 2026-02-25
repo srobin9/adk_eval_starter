@@ -1,0 +1,143 @@
+{
+  "eval_set_id": "evalset1",
+  "name": "evalset1",
+  "eval_cases": [
+    {
+      "eval_id": "case8612b9",
+      "conversation": [
+        {
+          "invocation_id": "e-e43b3dcd-fdce-4996-9825-055f40910c75",
+          "user_content": {
+            "parts": [
+              {
+                "text": "Hi, I'm customer CUST001. Can you check my orders? I need a refund for order ORD-102. It arrived damaged."
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Great news! Your refund for order **ORD-102** has been successfully processed. 🎉\n\nThe amount of $35.0 has been refunded due to the item arriving damaged, and the order status has been updated to \"refunded\".\n\nIs there anything else I can assist you with today?",
+                "thought_signature": "CtACAY89a1_KKN5bZ_bwjswJ6l8p1wieb1vYrd1AptQmWHDfZ3_dASLPiWWKdH_hye88QYJdpBGbPP6zE4TA4EonxitOPyp8QyMvNe-eN2XQVf_aajFAmiCEQ6g1bUsv-8fwaGQVPACVdFxY7qojLXlQXH4K4Rhgp5Vu-uBSZVO7Vxq6HaXLVyirjdbAECBdcQ1lPB_zB4mv5wZ4po3Qgx-mi84GlMpd5fZ6DXr6khY0Ig4r3Y5Txl706IXf5uCf6mzx3hwKI-FntdIhwC0C6thppjmXFoQtGHCjkWemOokdaB4H-lofdVDroDxzpb38ERfSjn3w6W9vtqFiaRIggbTguNXwD1imw6XEuMPjyk6W_9CrG5g6iXfoXRHVnpS19BHOaXxtkIQGWXywEjwhH7YOiDsq-gEP1T9-nZa2SEtO2pvjuWjElf3cBr2lAL2KEfeO"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "customer_service_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "text": "Hello CUST001! I can certainly help you with that.\n\nFirst, let me check your order history.\n",
+                      "thought_signature": "CocFAY89a19QVK7851E2qLpC-pdzs8ZnBY5cdQZomq-ckhZkXieH7_mFvwp3BRHqbcxDGal4ACICSGKu6O4wdZfp2qebkWNzl6DxN140qtp7lHyEdFsm40XneJ5WxXXqZNGQ8Eyxg5kejHi1q9GMdde4aFH7paMfdIQ1OJx0SWQDYXu8-E1qd9pJZ15ptW0MeTD4942SzDr9k8f4ueixpkkm5D0Gr47m4s41g-pyTdgrapjeAVTKGiuwSdjeA3NAw-a8c5PnlmzPsD_WVd01hYHDPbRGhoEjIeRCT7c4hJWfzGu-Uq7svkY4B2KApDJdSgvBrnZBiYjp7wvHoqXVB6rO22yh9GGcODYvMPJtzdakkoc4erqyohBnxmUphJvM6hvCs-DCzgKkVY42GyZ6imqFr3BdNuCdeEPUIYkBYN-0pRDDXRcbwQIPSVVEIL2KyjYNLQfJTKCQd4vT5taQnds8rt2tzaKg8nea3a25k_TzwkyrJWVU2OIU-EdXSyzYUbQFwWoq9Smtv_B255qCdLX5TzNuA-k5X_J83rv4tRe_QsLz9fFX3M1GhE2cHRJwykWXjUryzxHs818hSPaROe6x7BMIkyjusG0EhMmvOWUICRFw8OEaNQ-1SOmHgtnakF7eoQpU1bq3G3MuhVicDQIh2gHAUH9m5Njr5NMeb0lnEHpyDrh7XTdeg1NQKMvdfWbJM8CMkG_hGgMj_Ai5VrJxJQhLU8JCh5diXbTR-VUFaQE4pNGHYS0OSt0zY2TlRIzF07WNLbo2u8H2jcl_Ff70AvBUtVnWwJO7_gz1A4nltSEkLaVhBlbvLfoO-kICFsBLKccFXllT_Fg-dGfHLbCjTmFxhG1BWk8="
+                    },
+                    {
+                      "function_call": {
+                        "id": "adk-f1f7bc04-378f-4f6f-9209-b3e9891a80f8",
+                        "args": {
+                          "customer_id": "CUST001"
+                        },
+                        "name": "get_purchase_history"
+                      }
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "customer_service_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "adk-f1f7bc04-378f-4f6f-9209-b3e9891a80f8",
+                        "name": "get_purchase_history",
+                        "response": {
+                          "orders": [
+                            {
+                              "order_id": "ORD-101",
+                              "date": "2023-10-15",
+                              "items": [
+                                "Wireless Headphones"
+                              ],
+                              "total": 120.0,
+                              "status": "delivered"
+                            },
+                            {
+                              "order_id": "ORD-102",
+                              "date": "2023-11-01",
+                              "items": [
+                                "USB-C Cable",
+                                "Phone Case"
+                              ],
+                              "total": 35.0,
+                              "status": "shipped"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              },
+              {
+                "author": "customer_service_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "text": "Okay, I see your order history. Now, regarding your refund request for order ORD-102 due to it being damaged, I will process that for you right away. 📦\n",
+                      "thought_signature": "CoACAY89a1__VKEXvWMzWkgniY5BXdSdRPWpDrhA4goenE-pBkOSif1ckMS-Vb-gcal07VabWlG5ud7J91iZEd0t7rg5_osbUQjb2SG_eav8V-28yp95Quc1g3yxg52OSaz7CKSo5bFsbhT9lBUhpJxzvWX5ZDPx0eGs2OkWkWYxiXIybcC5LYAcGZo2MFPyOk7WxfcBSduuwwz356AUByV4q2Uh8RMmcN5g30yz6bu02GP83qXNowUj-95gBY2KcVFsPRyLQB5sI8U-JHiTX-zctSf3WkztopE0Ipu7IBxkXWgwRaJj133MEuO15lsmIJvCKPsB8mLr4XRxknpt4EGDqg=="
+                    },
+                    {
+                      "function_call": {
+                        "id": "adk-54e5ec9d-928e-4e59-8133-99060d7a61fb",
+                        "args": {
+                          "order_id": "ORD-102",
+                          "reason": "damaged"
+                        },
+                        "name": "issue_refund"
+                      }
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "customer_service_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "adk-54e5ec9d-928e-4e59-8133-99060d7a61fb",
+                        "name": "issue_refund",
+                        "response": {
+                          "status": "success",
+                          "order_id": "ORD-102",
+                          "new_status": "refunded",
+                          "refund_amount": "Full refund of $35.0 processed",
+                          "message": "Refund issued for order ORD-102 due to: damaged"
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1771997047.397314
+        }
+      ],
+      "session_input": {
+        "app_name": "customer_service_agent",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1771997602.0521896
+    }
+  ],
+  "creation_timestamp": 1771997578.0205946
+}

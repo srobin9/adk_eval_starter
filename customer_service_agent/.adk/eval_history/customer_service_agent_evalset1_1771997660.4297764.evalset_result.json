@@ -1,0 +1,1176 @@
+{
+  "eval_set_result_id": "customer_service_agent_evalset1_1771997660.4297764",
+  "eval_set_result_name": "customer_service_agent_evalset1_1771997660.4297764",
+  "eval_set_id": "evalset1",
+  "eval_case_results": [
+    {
+      "eval_set_file": "evalset1",
+      "eval_set_id": "evalset1",
+      "eval_id": "case8612b9",
+      "final_eval_status": 2,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 0.5,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 1.0,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        },
+        {
+          "metric_name": "response_match_score",
+          "threshold": 0.7,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 0.42307692307692313,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-966ed9e8-6179-482b-ac3c-913355441c69",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Hi, I'm customer CUST001. Can you check my orders? I need a refund for order ORD-102. It arrived damaged.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I've checked your orders, CUST001!\n\nIt looks like your order **ORD-102** for the USB-C Cable and Phone Case has already been successfully refunded. 🎉\n\nHere's your full order history:\n*   **ORD-101:** Wireless Headphones, delivered on 2023-10-15.\n*   **ORD-102:** USB-C Cable, Phone Case, **refunded**.\n\nIs there anything else I can help you with today?",
+                  "thought": null,
+                  "thought_signature": "CsYFAY89a18H8HjHFLJ6CJrUPVSTOz7P9AvtK-RnBUAEh6vDBnRip7uK6Lkv0gbG9Wh3MovT2GBju9YZibcmxIs9do7RUMWQ56jxdxegBLI3nxP5KdWLMy3Zfyf0Op8i7DcdDwDI5r3tisp7Fg6KDJJG6HbT2QuKFDL0EotLTFNTAJyl8oT_LrN3eRkRSGw8dODZRkMKIGOU48QM3VABG0g-IK4scSA9lmWr0EG2IlHaNdpai106XojciN2GUs8O2-ehklC2k8z3R2j_1Xs_JU6XxOTozO2v3GkqA5FfNLoC5GiBDIdJ2Kshq2w1SClLD8OnmlsBW8rERb0xd5lMEGHTyvjCL6OvUU0tlZFI6XFoESqX4yeNClPwO-oInSvjt9MxKJZ0syJ8j0rfGbrFHGngWrYgZrG2YDhFj-RpyEJ_LK4SIiZj-pHy7LU0K8u8DoO17uZXV5dfZdkJBC2hfCjvVmBRjfieAy42h2asJIHoD0vO0KCnmqT3l33AZrp2hrPdT2pmJ1hHBAgG80-Pz0esRELfcjk0KFs-Tjj0IWnvKpIuYjHNX7ASWyCQWTGK2BHNjWsyrzeu_RpvHKqgHQDUHiJ2gMwNPJZg2fdD4lGCx8aKiAquholmj2S8bVJZ1Ai_kmidy6SAJMijlmmP652OaKwI9OE7wPEDK9C_JB3PBV1TDZVuiCFMuXqAb8goXglF02CwJsE2n_ISxCl67C6tTX9s24CB91m2shu4wTbTr39tbot2RyG0-FcvdbU_evheKekoK42Y3UhQ6-mg3gvNn3rax-GfeuMHh-GQ7UwAsISX5KLYfGT1zKpCOqyFS7ehxyCiAkh0SfuH_6z_-5HZeCOBSky5VsLIJ9d5nVGhLhmv8Pp4iFSBzLZ6VVRT8vf1oD9mb55Gmh9T_smTidTOh3QMXx7LF-dzltG7eb5Wz_-nKiI2qQk=",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "customer_service_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": "Hello! I can certainly help you with that.\n\nFirst, let me check your order history for customer ID CUST001. After that, I will process your refund request for order ORD-102 because it arrived damaged.\n\n",
+                        "thought": null,
+                        "thought_signature": "CugEAY89a19fS4fmBBo67MFM8jjaVZUik7Gaf_cScr6LQF8h3iiawN_5YUmvKk7eXBJyIS4c13Pff1HlgZ_rz4albYatHpPSGx6vol_uypdK59UylVsXb1w10sV9L_Yw2n-ABaKOIiY2k3fVMoAWzNTZDCAycuECzeJqnf0ba0FQk1itbdKswWikq88Ga6Ot35xvEzGMzkNZZLB3EjnYxnh1ILkzXFx34tKXrxYGGi__nUq2EphLfet4N3tnIAnDF_tIcNYUkN6hbuetNgRt4ecErTY4E0yqOfnOiezTNITcW78RnJjsmk32SvLiePWU5VsAGviWgffCXUTxmzqCHwImi6IIfJyUFk9zTQVAKQwn6mQJDBEEBeqA3mGXe3m0yGdw8l_c5cx-Lv9Gtrh1IRzjgdqFfuBZccYAnutPFZBk5WjjBNX3xRsADzRQ2kuwcWzFdzDSqE-5-V5TbWyBfx8Pe0WZ2NtmxJvuf1nAwQZL2cEvcSUvVWHgd5uyd48x88iwXIEZtVoUYHDje6Zv3rgN_V2xllDtUZHzHCFMdbqgsOLlmczyQSmUNW4tLb185kYYJ8FVZvclWBItg7gpoCCXed7QW_iW0vASMd4uJyAGYwmqM1rWMWHR1nT67BTgLP00oG-HeCfIdNiYiaTneYGPgwG91QvlwFYAkrRsgr1VSxV0CJeCEzMD5ZxSc2zsbfXEroDoKFy7V-X0SwRCw5vZxsH_Mz-lA3hdlS1fYTkPe6u_luDse5fRXNfUjexrlR5j301SoT103XwYHUKDYKE7bsEL-EZNVUrH-KX7INnqVUPqu41m2MiZEg==",
+                        "video_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-5e385fe1-ce22-41c0-bd75-bb12fb69b06d",
+                          "args": {
+                            "customer_id": "CUST001"
+                          },
+                          "name": "get_purchase_history",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-c7e3991b-a072-4cdd-aefc-dbf0e449ad7d",
+                          "args": {
+                            "reason": "damaged",
+                            "order_id": "ORD-102"
+                          },
+                          "name": "issue_refund",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "customer_service_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-5e385fe1-ce22-41c0-bd75-bb12fb69b06d",
+                          "name": "get_purchase_history",
+                          "response": {
+                            "orders": [
+                              {
+                                "order_id": "ORD-101",
+                                "date": "2023-10-15",
+                                "items": [
+                                  "Wireless Headphones"
+                                ],
+                                "total": 120.0,
+                                "status": "delivered"
+                              },
+                              {
+                                "order_id": "ORD-102",
+                                "date": "2023-11-01",
+                                "items": [
+                                  "USB-C Cable",
+                                  "Phone Case"
+                                ],
+                                "total": 35.0,
+                                "status": "refunded"
+                              }
+                            ]
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-c7e3991b-a072-4cdd-aefc-dbf0e449ad7d",
+                          "name": "issue_refund",
+                          "response": {
+                            "status": "error",
+                            "message": "Order ORD-102 has already been refunded."
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1771997657.184713,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "customer_service_agent": {
+                  "name": "customer_service_agent",
+                  "instructions": "\nYou are a helpful and efficient retail customer service representative. 🛍️\nYour goal is to assist customers with their purchase history, refunds, and product inquiries.\n\n**Guidelines:**\n1.  **Identify the Customer:** If a customer asks about their history or order status, ask for their Customer ID if they haven't provided it.\n2.  **Check Order Status:** Use `get_purchase_history` to see the current status of orders (e.g., ordered, shipped, delivered, refunded).\n3.  **Handle Refunds:** When a customer wants a refund, ask for the Order ID and the reason for the refund. Use the `issue_refund` tool. If the customer mentions damage, use \"damaged\" as the reason.\n4.  **Product Inquiries:** For product questions, use `lookup_product_info`. If a product is out of stock, inform the customer.\n5.  **Be Polite & Professional:** Always use a friendly tone and emojis where appropriate.\n6.  **Prioritize Solutions:** Try to resolve the customer's issue quickly using the available tools.\n\n**Available Tools:**\n* `get_purchase_history`: Get past orders and their current status for a customer.\n* `issue_refund`: Process a refund for an order and update its status.\n* `lookup_product_info`: Get details about a product.\n\n\nYou are an agent. Your internal name is \"customer_service_agent\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": [
+                        {
+                          "description": "\nRetrieves the purchase history for a given customer, including order status.\n\nArgs:\n    customer_id: The unique identifier for the customer.\n\nReturns:\n    A dictionary containing a list of past orders with their current status.\n",
+                          "name": "get_purchase_history",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "customer_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "customer_id"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": null,
+                            "property_ordering": null,
+                            "required": null,
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "\nIssues a refund for a specific order and updates its status.\n\nArgs:\n    order_id: The unique identifier for the order.\n    reason: The reason for the refund.\n\nReturns:\n    A dictionary confirming the refund status and updated order information.\n",
+                          "name": "issue_refund",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "order_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              },
+                              "reason": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "order_id",
+                              "reason"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": null,
+                            "property_ordering": null,
+                            "required": null,
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": "\nLooks up details for a specific product.\n\nArgs:\n    product_name: The name of the product to look up.\n\nReturns:\n    A dictionary with product details.\n",
+                          "name": "lookup_product_info",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "product_name": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "product_name"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": null,
+                            "property_ordering": null,
+                            "required": null,
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "response_json_schema": null,
+                          "behavior": null
+                        }
+                      ],
+                      "google_maps": null,
+                      "google_search": null,
+                      "google_search_retrieval": null,
+                      "url_context": null
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-e43b3dcd-fdce-4996-9825-055f40910c75",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Hi, I'm customer CUST001. Can you check my orders? I need a refund for order ORD-102. It arrived damaged.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Great news! Your refund for order **ORD-102** has been successfully processed. 🎉\n\nThe amount of $35.0 has been refunded due to the item arriving damaged, and the order status has been updated to \"refunded\".\n\nIs there anything else I can assist you with today?",
+                  "thought": null,
+                  "thought_signature": "CtACAY89a1_KKN5bZ_bwjswJ6l8p1wieb1vYrd1AptQmWHDfZ3_dASLPiWWKdH_hye88QYJdpBGbPP6zE4TA4EonxitOPyp8QyMvNe-eN2XQVf_aajFAmiCEQ6g1bUsv-8fwaGQVPACVdFxY7qojLXlQXH4K4Rhgp5Vu-uBSZVO7Vxq6HaXLVyirjdbAECBdcQ1lPB_zB4mv5wZ4po3Qgx-mi84GlMpd5fZ6DXr6khY0Ig4r3Y5Txl706IXf5uCf6mzx3hwKI-FntdIhwC0C6thppjmXFoQtGHCjkWemOokdaB4H-lofdVDroDxzpb38ERfSjn3w6W9vtqFiaRIggbTguNXwD1imw6XEuMPjyk6W_9CrG5g6iXfoXRHVnpS19BHOaXxtkIQGWXywEjwhH7YOiDsq-gEP1T9-nZa2SEtO2pvjuWjElf3cBr2lAL2KEfeO",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "customer_service_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": "Hello CUST001! I can certainly help you with that.\n\nFirst, let me check your order history.\n",
+                        "thought": null,
+                        "thought_signature": "CocFAY89a19QVK7851E2qLpC-pdzs8ZnBY5cdQZomq-ckhZkXieH7_mFvwp3BRHqbcxDGal4ACICSGKu6O4wdZfp2qebkWNzl6DxN140qtp7lHyEdFsm40XneJ5WxXXqZNGQ8Eyxg5kejHi1q9GMdde4aFH7paMfdIQ1OJx0SWQDYXu8-E1qd9pJZ15ptW0MeTD4942SzDr9k8f4ueixpkkm5D0Gr47m4s41g-pyTdgrapjeAVTKGiuwSdjeA3NAw-a8c5PnlmzPsD_WVd01hYHDPbRGhoEjIeRCT7c4hJWfzGu-Uq7svkY4B2KApDJdSgvBrnZBiYjp7wvHoqXVB6rO22yh9GGcODYvMPJtzdakkoc4erqyohBnxmUphJvM6hvCs-DCzgKkVY42GyZ6imqFr3BdNuCdeEPUIYkBYN-0pRDDXRcbwQIPSVVEIL2KyjYNLQfJTKCQd4vT5taQnds8rt2tzaKg8nea3a25k_TzwkyrJWVU2OIU-EdXSyzYUbQFwWoq9Smtv_B255qCdLX5TzNuA-k5X_J83rv4tRe_QsLz9fFX3M1GhE2cHRJwykWXjUryzxHs818hSPaROe6x7BMIkyjusG0EhMmvOWUICRFw8OEaNQ-1SOmHgtnakF7eoQpU1bq3G3MuhVicDQIh2gHAUH9m5Njr5NMeb0lnEHpyDrh7XTdeg1NQKMvdfWbJM8CMkG_hGgMj_Ai5VrJxJQhLU8JCh5diXbTR-VUFaQE4pNGHYS0OSt0zY2TlRIzF07WNLbo2u8H2jcl_Ff70AvBUtVnWwJO7_gz1A4nltSEkLaVhBlbvLfoO-kICFsBLKccFXllT_Fg-dGfHLbCjTmFxhG1BWk8=",
+                        "video_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-f1f7bc04-378f-4f6f-9209-b3e9891a80f8",
+                          "args": {
+                            "customer_id": "CUST001"
+                          },
+                          "name": "get_purchase_history",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "customer_service_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-f1f7bc04-378f-4f6f-9209-b3e9891a80f8",
+                          "name": "get_purchase_history",
+                          "response": {
+                            "orders": [
+                              {
+                                "order_id": "ORD-101",
+                                "date": "2023-10-15",
+                                "items": [
+                                  "Wireless Headphones"
+                                ],
+                                "total": 120.0,
+                                "status": "delivered"
+                              },
+                              {
+                                "order_id": "ORD-102",
+                                "date": "2023-11-01",
+                                "items": [
+                                  "USB-C Cable",
+                                  "Phone Case"
+                                ],
+                                "total": 35.0,
+                                "status": "shipped"
+                              }
+                            ]
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                },
+                {
+                  "author": "customer_service_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": "Okay, I see your order history. Now, regarding your refund request for order ORD-102 due to it being damaged, I will process that for you right away. 📦\n",
+                        "thought": null,
+                        "thought_signature": "CoACAY89a1__VKEXvWMzWkgniY5BXdSdRPWpDrhA4goenE-pBkOSif1ckMS-Vb-gcal07VabWlG5ud7J91iZEd0t7rg5_osbUQjb2SG_eav8V-28yp95Quc1g3yxg52OSaz7CKSo5bFsbhT9lBUhpJxzvWX5ZDPx0eGs2OkWkWYxiXIybcC5LYAcGZo2MFPyOk7WxfcBSduuwwz356AUByV4q2Uh8RMmcN5g30yz6bu02GP83qXNowUj-95gBY2KcVFsPRyLQB5sI8U-JHiTX-zctSf3WkztopE0Ipu7IBxkXWgwRaJj133MEuO15lsmIJvCKPsB8mLr4XRxknpt4EGDqg==",
+                        "video_metadata": null
+                      },
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-54e5ec9d-928e-4e59-8133-99060d7a61fb",
+                          "args": {
+                            "order_id": "ORD-102",
+                            "reason": "damaged"
+                          },
+                          "name": "issue_refund",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "customer_service_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-54e5ec9d-928e-4e59-8133-99060d7a61fb",
+                          "name": "issue_refund",
+                          "response": {
+                            "status": "success",
+                            "order_id": "ORD-102",
+                            "new_status": "refunded",
+                            "refund_amount": "Full refund of $35.0 processed",
+                            "message": "Refund issued for order ORD-102 due to: damaged"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1771997047.397314,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 0.5,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.7,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.42307692307692313,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "___eval___session___cd406013-6812-44de-a610-4a13c9456337",
+      "session_details": {
+        "id": "___eval___session___cd406013-6812-44de-a610-4a13c9456337",
+        "app_name": "customer_service_agent",
+        "user_id": "user",
+        "state": {
+          "__llm_request_key__": "c30cfd04-b4a4-41e7-a338-0a7453c5022d"
+        },
+        "events": [
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Hi, I'm customer CUST001. Can you check my orders? I need a refund for order ORD-102. It arrived damaged.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-966ed9e8-6179-482b-ac3c-913355441c69",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "66061654-6994-429c-9ffe-333fe229cae3",
+            "timestamp": 1771997654.287521
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Hello! I can certainly help you with that.\n\nFirst, let me check your order history for customer ID CUST001. After that, I will process your refund request for order ORD-102 because it arrived damaged.\n\n",
+                  "thought": null,
+                  "thought_signature": "CugEAY89a19fS4fmBBo67MFM8jjaVZUik7Gaf_cScr6LQF8h3iiawN_5YUmvKk7eXBJyIS4c13Pff1HlgZ_rz4albYatHpPSGx6vol_uypdK59UylVsXb1w10sV9L_Yw2n-ABaKOIiY2k3fVMoAWzNTZDCAycuECzeJqnf0ba0FQk1itbdKswWikq88Ga6Ot35xvEzGMzkNZZLB3EjnYxnh1ILkzXFx34tKXrxYGGi__nUq2EphLfet4N3tnIAnDF_tIcNYUkN6hbuetNgRt4ecErTY4E0yqOfnOiezTNITcW78RnJjsmk32SvLiePWU5VsAGviWgffCXUTxmzqCHwImi6IIfJyUFk9zTQVAKQwn6mQJDBEEBeqA3mGXe3m0yGdw8l_c5cx-Lv9Gtrh1IRzjgdqFfuBZccYAnutPFZBk5WjjBNX3xRsADzRQ2kuwcWzFdzDSqE-5-V5TbWyBfx8Pe0WZ2NtmxJvuf1nAwQZL2cEvcSUvVWHgd5uyd48x88iwXIEZtVoUYHDje6Zv3rgN_V2xllDtUZHzHCFMdbqgsOLlmczyQSmUNW4tLb185kYYJ8FVZvclWBItg7gpoCCXed7QW_iW0vASMd4uJyAGYwmqM1rWMWHR1nT67BTgLP00oG-HeCfIdNiYiaTneYGPgwG91QvlwFYAkrRsgr1VSxV0CJeCEzMD5ZxSc2zsbfXEroDoKFy7V-X0SwRCw5vZxsH_Mz-lA3hdlS1fYTkPe6u_luDse5fRXNfUjexrlR5j301SoT103XwYHUKDYKE7bsEL-EZNVUrH-KX7INnqVUPqu41m2MiZEg==",
+                  "video_metadata": null
+                },
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": {
+                    "id": "adk-5e385fe1-ce22-41c0-bd75-bb12fb69b06d",
+                    "args": {
+                      "customer_id": "CUST001"
+                    },
+                    "name": "get_purchase_history",
+                    "partial_args": null,
+                    "will_continue": null
+                  },
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                },
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": {
+                    "id": "adk-c7e3991b-a072-4cdd-aefc-dbf0e449ad7d",
+                    "args": {
+                      "reason": "damaged",
+                      "order_id": "ORD-102"
+                    },
+                    "name": "issue_refund",
+                    "partial_args": null,
+                    "will_continue": null
+                  },
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "3465f2f9-ace1-423a-8122-28cc4803330f"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 76,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 76
+                }
+              ],
+              "prompt_token_count": 530,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 530
+                }
+              ],
+              "thoughts_token_count": 139,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 745,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": -0.5366393139487818,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-966ed9e8-6179-482b-ac3c-913355441c69",
+            "author": "customer_service_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "3465f2f9-ace1-423a-8122-28cc4803330f"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": [],
+            "branch": null,
+            "id": "c2c46cb4-4659-497e-88ef-82e7068c5144",
+            "timestamp": 1771997654.309857
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": {
+                    "will_continue": null,
+                    "scheduling": null,
+                    "parts": null,
+                    "id": "adk-5e385fe1-ce22-41c0-bd75-bb12fb69b06d",
+                    "name": "get_purchase_history",
+                    "response": {
+                      "orders": [
+                        {
+                          "order_id": "ORD-101",
+                          "date": "2023-10-15",
+                          "items": [
+                            "Wireless Headphones"
+                          ],
+                          "total": 120.0,
+                          "status": "delivered"
+                        },
+                        {
+                          "order_id": "ORD-102",
+                          "date": "2023-11-01",
+                          "items": [
+                            "USB-C Cable",
+                            "Phone Case"
+                          ],
+                          "total": 35.0,
+                          "status": "refunded"
+                        }
+                      ]
+                    }
+                  },
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                },
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": {
+                    "will_continue": null,
+                    "scheduling": null,
+                    "parts": null,
+                    "id": "adk-c7e3991b-a072-4cdd-aefc-dbf0e449ad7d",
+                    "name": "issue_refund",
+                    "response": {
+                      "status": "error",
+                      "message": "Order ORD-102 has already been refunded."
+                    }
+                  },
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-966ed9e8-6179-482b-ac3c-913355441c69",
+            "author": "customer_service_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "e95cfbaf-43ee-45af-a006-ccaf0f6d6d73",
+            "timestamp": 1771997657.185462
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I've checked your orders, CUST001!\n\nIt looks like your order **ORD-102** for the USB-C Cable and Phone Case has already been successfully refunded. 🎉\n\nHere's your full order history:\n*   **ORD-101:** Wireless Headphones, delivered on 2023-10-15.\n*   **ORD-102:** USB-C Cable, Phone Case, **refunded**.\n\nIs there anything else I can help you with today?",
+                  "thought": null,
+                  "thought_signature": "CsYFAY89a18H8HjHFLJ6CJrUPVSTOz7P9AvtK-RnBUAEh6vDBnRip7uK6Lkv0gbG9Wh3MovT2GBju9YZibcmxIs9do7RUMWQ56jxdxegBLI3nxP5KdWLMy3Zfyf0Op8i7DcdDwDI5r3tisp7Fg6KDJJG6HbT2QuKFDL0EotLTFNTAJyl8oT_LrN3eRkRSGw8dODZRkMKIGOU48QM3VABG0g-IK4scSA9lmWr0EG2IlHaNdpai106XojciN2GUs8O2-ehklC2k8z3R2j_1Xs_JU6XxOTozO2v3GkqA5FfNLoC5GiBDIdJ2Kshq2w1SClLD8OnmlsBW8rERb0xd5lMEGHTyvjCL6OvUU0tlZFI6XFoESqX4yeNClPwO-oInSvjt9MxKJZ0syJ8j0rfGbrFHGngWrYgZrG2YDhFj-RpyEJ_LK4SIiZj-pHy7LU0K8u8DoO17uZXV5dfZdkJBC2hfCjvVmBRjfieAy42h2asJIHoD0vO0KCnmqT3l33AZrp2hrPdT2pmJ1hHBAgG80-Pz0esRELfcjk0KFs-Tjj0IWnvKpIuYjHNX7ASWyCQWTGK2BHNjWsyrzeu_RpvHKqgHQDUHiJ2gMwNPJZg2fdD4lGCx8aKiAquholmj2S8bVJZ1Ai_kmidy6SAJMijlmmP652OaKwI9OE7wPEDK9C_JB3PBV1TDZVuiCFMuXqAb8goXglF02CwJsE2n_ISxCl67C6tTX9s24CB91m2shu4wTbTr39tbot2RyG0-FcvdbU_evheKekoK42Y3UhQ6-mg3gvNn3rax-GfeuMHh-GQ7UwAsISX5KLYfGT1zKpCOqyFS7ehxyCiAkh0SfuH_6z_-5HZeCOBSky5VsLIJ9d5nVGhLhmv8Pp4iFSBzLZ6VVRT8vf1oD9mb55Gmh9T_smTidTOh3QMXx7LF-dzltG7eb5Wz_-nKiI2qQk=",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "c30cfd04-b4a4-41e7-a338-0a7453c5022d"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 112,
+              "candidates_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 112
+                }
+              ],
+              "prompt_token_count": 825,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 825
+                }
+              ],
+              "thoughts_token_count": 193,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 1130,
+              "traffic_type": "ON_DEMAND"
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": -0.6040295192173549,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-966ed9e8-6179-482b-ac3c-913355441c69",
+            "author": "customer_service_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "c30cfd04-b4a4-41e7-a338-0a7453c5022d"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "af10e6e6-2675-4001-b9b2-b5441c445091",
+            "timestamp": 1771997657.200032
+          }
+        ],
+        "last_update_time": 1771997657.200032
+      },
+      "user_id": "user"
+    }
+  ],
+  "creation_timestamp": 1771997660.4297764
+}
